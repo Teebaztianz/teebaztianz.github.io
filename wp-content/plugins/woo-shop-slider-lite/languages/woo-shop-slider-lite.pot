@@ -1,0 +1,640 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Shop Slider Lite\n"
+"POT-Creation-Date: 2018-08-14 15:34+0200\n"
+"PO-Revision-Date: 2016-01-29 12:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: Shindiri Studio\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_html_e;esc_html_x;"
+"esc_html_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../admin/class-shindiri-woo-slider-admin.php:98
+msgid "Woo Shop Slider plugin info"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:236
+msgid "Add New"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:237
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:238
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:239
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:240
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:241
+msgid "All sliders"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:242
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:243
+msgid "Parent:"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:244
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:245
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:304
+msgid "Thank you for choosing Woo Shop Slider"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:305
+msgid "Marjan. T. CEO at Shindiri Studio"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:327
+msgid "Save changes"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:341
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:390
+#: ../includes/class-shindiri-woo-slider.php:134
+msgid "Woo Shop Slider"
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:405
+#, php-format
+msgid ""
+"The %s plugin requires WooCommerce. Please install or activate %s plugin."
+msgstr ""
+
+#: ../admin/class-shindiri-woo-slider-admin.php:405
+msgid "WooCommerce"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:71
+#, php-format
+msgid "General settings %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:71
+#, php-format
+msgid "These settings are global and will be applied on every %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:177
+msgid "Quick Look button"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:180
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:210
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:237
+#: ../admin/partials/metabox-tab-version-7.php:305
+msgid "Disabled"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:181
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:209
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:236
+#: ../admin/partials/metabox-tab-version-7.php:304
+msgid "Enabled"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:183
+msgid "Disable or enable Quick View Button in all sliders."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:188
+#, php-format
+msgid ""
+"To override built in Quick look functionality, hook some other Quick View "
+"plugin or use other html visit this link: %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:189
+#: ../admin/partials/admin-display.php:28
+msgid "Documentation"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:198
+msgid "Quick view accent color"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:201
+msgid ""
+"Color will be used as accent color in quick view for: separator, button and "
+"hover on slider arrows."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:206
+msgid "Quick view typography"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:212
+msgid ""
+"If you want to use custom typography for quick view, please select Disabled "
+"option."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:217
+msgid "Quick view sale ribbon text color"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:225
+msgid "Quick view sale ribbon background color"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:233
+msgid "Quick Look button on shop products"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:239
+msgid ""
+"Disable or enable Quick View Button on all products in shop and product "
+"categories."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:242
+msgid ""
+"Important: Quick look button must be enabled. This settings depends from "
+"Your theme code and may not be compatible with all themes as it require some "
+"WooCommerce hooks to be implemented."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:249
+msgid "Quick look shop button additional classes"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-common-settings-metabox.php:253
+msgid ""
+"Add css classes for Quick look button on shop and product category pages and "
+"style button to fit Your needs."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-custom-css-metabox.php:62
+#, php-format
+msgid "Custom CSS for %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-custom-css-metabox.php:155
+msgid "To target only this slider in Your custom css use class:"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-helper.php:513
+msgid "No product categories found. Please change slider settings"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-helper.php:528
+msgid "No results for current setting found. Please change slider settings"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-helper.php:543
+msgid ""
+"Something wrong happened. Please review and update slider settings. Please "
+"click update button again."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-helper.php:554
+msgid "VIEW PRODUCT"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-helper.php:565
+msgid "VIEW COLLECTION"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-helper.php:576
+msgid "VIEW MORE"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:51
+msgid "Default"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:60
+msgid "Upload Image"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:154
+msgid "Search..."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:196
+msgid "Selected categories (drag category to change order)"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:291
+msgid "slider"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:321
+msgid "Change value"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:325
+msgid ""
+"If slider is unconveniant for you to use, please enter height in input field "
+"next to this slider. Please use numbers only (example: 800)."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:329
+#, php-format
+msgid "Maximum value: %s, minimum value: %s."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-metabox-field-generator.php:330
+msgid "Click \"Change value\" button to update value."
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:194
+#, php-format
+msgid "%s settings"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:407
+#, php-format
+msgid "Casual %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:407
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:411
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:415
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:419
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:423
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:427
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:431
+#: ../admin/partials/main-metabox-tab-content-assign-slider-versions.php:20
+msgid "Slider"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:411
+#, php-format
+msgid "Card %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:415
+#, php-format
+msgid "Velocity %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:419
+#, php-format
+msgid "Polar %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:423
+#, php-format
+msgid "Kanji %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:427
+#, php-format
+msgid "Suburb %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-settings-metabox.php:431
+#, php-format
+msgid "Roll %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-tinymce-plugin.php:39
+#, php-format
+msgid "Add %s Shortcode"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-tinymce-plugin.php:55
+msgid "Select slider"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-tinymce-plugin.php:63
+msgid "No Sliders found"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-tinymce-plugin.php:74
+msgid "Please select slider"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-vc-shortcode.php:40
+#, php-format
+msgid "Shindiri %s"
+msgstr ""
+
+#: ../admin/includes/class-shindiri-woo-slider-admin-vc-shortcode.php:51
+msgid "Selected slider id"
+msgstr ""
+
+#: ../admin/partials/admin-display.php:21
+msgid "Welcome to "
+msgstr ""
+
+#: ../admin/partials/admin-display.php:21
+msgid " Lite"
+msgstr ""
+
+#: ../admin/partials/admin-display.php:21
+msgid "by"
+msgstr ""
+
+#: ../admin/partials/admin-display.php:29
+msgid "Live Demo"
+msgstr ""
+
+#: ../admin/partials/admin-display.php:30
+msgid "More Shindiri Studio Plugins"
+msgstr ""
+
+#: ../admin/partials/admin-display.php:31
+msgid "More Shindiri Studio Templates"
+msgstr ""
+
+#: ../admin/partials/main-metabox-tab-content-assign-slider-versions.php:20
+#, php-format
+msgid "Straight %s"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:116
+msgid "Slider shortcode:"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:122
+msgid "Choose products or categories:"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:125
+#: ../admin/partials/metabox-tab-version-7.php:143
+msgid "Categories"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:126
+msgid "Products"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:129
+msgid ""
+"Choose what to display in Your slider. If \"Products\" are selected then "
+"slider will show products from all selected categories. "
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:130
+msgid ""
+"It is recommended to have at least 4 product or categories selected for "
+"slider to function as designed."
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:139
+msgid "All categories (select a category or multiple categories)"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:153
+msgid "Set custom button text:"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:163
+msgid "Sort products by:"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:166
+msgid "Recent products (Ordered by date)"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:167
+msgid "Featured products (Ordered by date)"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:168
+msgid "Top rated products (Ordered by rating)"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:169
+msgid "Best selling products (Ordered by number of sales)"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:170
+msgid "Products on sale (Ordered by date)"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:171
+msgid "Random"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:190
+msgid "Maximum products"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:201
+msgid "Slider image placeholder"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:206
+msgid "Upload slider custom placeholder."
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:217
+msgid "FullScreen slider"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:221
+#: ../admin/partials/metabox-tab-version-7.php:242
+msgid "Yes"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:222
+#: ../admin/partials/metabox-tab-version-7.php:243
+msgid "No"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:228
+msgid "Slider height"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:238
+msgid "Lazy loading"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:255
+msgid "Slider transition"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:258
+msgid "Slide"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:259
+msgid "Coverflow"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:267
+msgid "Autoplay"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:270
+msgid "Off"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:271
+msgid "On"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:272
+msgid "Only on mobile and tablets"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:275
+msgid "Enable slider autoplay."
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:280
+msgid "Autoplay timeout"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:286
+msgid "Delay between transitions (in ms)."
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:295
+msgid "Style settings"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:301
+#, php-format
+msgid "%s typography"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:308
+msgid ""
+"Chose &quot;disable&quot; to use current theme font-family, colors, etc..."
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:318
+msgid "Select light or dark content"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:321
+msgid "Light"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:322
+msgid "Dark"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:332
+msgid "Select overlay color for slides"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:340
+msgid "Select content overlay color"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:344
+msgid "Set overlay color for product or category details."
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:356
+msgid "Main color"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:364
+msgid "Button type"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:367
+msgid "Filled"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:368
+msgid "Outlined"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:369
+msgid "Rounded"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:376
+msgid "Button text color"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:392
+msgid "Product sale ribbon text color"
+msgstr ""
+
+#: ../admin/partials/metabox-tab-version-7.php:400
+msgid "Product sale background color"
+msgstr ""
+
+#: ../includes/shindiri-woo-slider-product/shindiri-woo-slider-wc-product-deprecated.php:91
+#: ../includes/shindiri-woo-slider-product/shindiri-woo-slider-wc-product.php:91
+msgid "From"
+msgstr ""
+
+#: ../public/class-shindiri-woo-slider-public.php:339
+msgid "on"
+msgstr ""
+
+#: ../public/includes/shindiri-woocommerce-quick-look/shindiri-woocommerce-quick-look.php:196
+msgid "Quick look"
+msgstr ""
+
+#: ../public/includes/shindiri-woocommerce-quick-look/shindiri-woocommerce-quick-look.php:241
+#: ../public/shortcodes/versions/basic/class-shindiri-woo-slider-version-basic.php:411
+msgid "Sale!"
+msgstr ""
+
+#: ../public/includes/shindiri-woocommerce-quick-look/templates/quick-look.php:118
+msgid "Price"
+msgstr ""
+
+#: ../public/includes/shindiri-woocommerce-quick-look/templates/quick-look.php:124
+#: ../public/includes/shindiri-woocommerce-quick-look/templates/quick-look.php:130
+msgid "Price from"
+msgstr ""
+
+#: ../public/includes/shindiri-woocommerce-quick-look/templates/quick-look.php:190
+msgid "Quantity"
+msgstr ""
+
+#: ../public/shortcodes/class-shindiri-woo-slider-public-shortcodes.php:53
+msgid "Something went wrong. Please check slider settings."
+msgstr ""
+
+#: ../public/shortcodes/class-shindiri-woo-slider-public-shortcodes.php:59
+msgid "Meta key does not exist. Please check slider settings."
+msgstr ""
+
+#: ../public/shortcodes/versions/seven/class-shindiri-woo-slider-version-seven.php:95
+msgid "Something went wrong. Please check slider version metadata settings."
+msgstr ""
+
+#: ../shindiri-woo-slider.php:47
+msgid ""
+"Warning! The full version of the Shindiri Woo Shop Slider plugin is "
+"activated. Please deactivate full version if you want to use lite version of "
+"the plugin."
+msgstr ""

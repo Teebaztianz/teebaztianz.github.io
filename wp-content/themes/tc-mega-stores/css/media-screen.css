@@ -1,0 +1,226 @@
+@media(max-width:768px){
+.bs-cart li a {
+    font-size: 12px;
+    padding: 0 5px;
+}
+.bs-phone-icon, .bs-mail-icon, .bs-address-icon {
+    font-size: 12px;
+}
+.bs-logo {
+    text-align: center;
+}
+.search-box {
+    padding-top: 10px;
+}
+.bs-menu .navbar-right {
+    margin-top: 20px;
+    text-align: left;
+}
+.bs-home-slider .carousel-caption {
+    top: 15%;
+}
+.slider-heading span {
+    font-size: 36px;
+    margin: 5px 0;
+}
+.slider-heading {
+    margin-bottom: 5px;
+}
+.slider-desc {
+    font-size: 20px;
+}
+.slider-link {
+    font-size: 16px;
+    padding: 2px 7px;
+}
+.slider-text {
+    padding: 5px 15px;
+    width: 65%;
+}
+.section-heading .section-head {
+   font-size: 16px;
+}
+.bs-cat-pics{
+    padding: 0 5px;
+}
+.col-title {
+    padding: 10px 0;
+}
+}
+@media(max-width:767px){
+.bs-menu .navbar-nav li {
+    float: left !important;
+    width: 100%;
+    text-align: left;
+}
+.bs-menu .navbar-nav li a {
+    padding: 10px;
+}
+.bs-menu .navbar-nav li .dropdown-menu li a {
+    color: #333;
+}
+.bs-menu .dropdown-submenu .dropdown-menu {
+    left: 0!important;
+}
+.bs-menu-head .navbar-nav li .dropdown-menu {
+    right: 0;
+    width: 100%;
+    position: relative;
+}
+.bs-pro-cart {
+    padding-top: 0px;
+}
+.bs-menu .navbar-nav li a i {
+    float: right;
+    background-color: #333;
+    width: 20px;
+    text-align: center;
+    color: #fff;
+    height: 16px;
+}
+.bs-cart {
+    float: none;
+    text-align: center;
+}
+.bs-add-info {
+    text-align: center;
+}
+.blog-detail {
+    margin-bottom: 20px;
+}
+.bs-cat-pics.bs-mens {
+    float: left;
+}
+}
+@media(max-width:480px){
+#search {
+    width: 170px;
+}
+.bs-pro-cart {
+    padding-top: 0px;
+    margin-left: 0;
+}
+.bs-shop-cart span i {
+    font-size: 30px;
+}
+.bs-shop-cart .bs-shcrt {
+    font-size: 14px;
+}
+.navbar-toggle {
+   margin-right: -45px;
+   margin-top: 60px;
+}
+.bs-menu .navbar-right {
+    margin-top: 0;
+}
+.bs-menu .navbar-nav li a {
+    padding: 10px;
+}
+.bs-add-info {
+    text-align: center;
+}
+.bs-menu .navbar-nav li .dropdown-menu li a {
+    color: #333;
+}
+.bs-cart {
+    float: none;
+    text-align: center;
+}
+.bs-home-slider .carousel-caption {
+    top: 5%;
+}
+.slider-text {
+    padding: 5px 15px;
+}
+.slider-heading span {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.slider-desc {
+    font-size: 14px;
+}
+.slider-link {
+    display: none;
+}
+.bs-womens {
+    float: none;
+}
+.widget {
+    margin-bottom: 20px;
+}
+.copyright {
+    padding: 5px 0;
+    text-align: center;
+}
+.copyright a {
+   display: block;
+}
+.slider-text {
+    display: none;
+}
+.bs-cat-pics.bs-mens {
+    float: none;
+}
+.bs-breadcum {
+    padding: 0px;
+    padding-top: 30px;
+}
+.bs-breadc li {
+    font-size: 15px;
+    padding-right: 5px;
+}
+.right-side .blog-detail .entry-title {
+    font-size: 20px;
+}
+.pager .previous a, .pager .next a {
+    font-size: 12px;
+    padding: 5px 7px;
+}
+.ms-cartbar .search-box {
+   display: none;
+}
+.header1 {
+    position: relative;
+}
+.ms-logo-bar {
+    padding: 0;
+}
+.site-title {
+    font-size: 30px;
+    text-align: left;
+}
+.header1 .navbar-toggle {
+    margin-right: -7px;
+    margin-top: 0;
+}
+.ms-cartbar {
+    padding: 0;
+}
+.site-description {
+   display: none;
+}
+.bs-breadc li {
+    font-size: 14px;
+    padding-right: 5px;
+}
+.bs-breadc li a:after {
+    font-size: 15px;
+   margin-left: 5px;
+}
+.bs-breadcum {
+    padding: 20px 0px;
+}
+.woocommerce div.product .product_title {
+    font-size: 28px;
+}
+.related.products li.product-type-simple {
+     width: 46.5% !important;
+}
+.bs-menu .navbar-nav li a {
+    font-size: 16px;
+    color: #333;
+}
+.entry-content p {
+    font-size: 12px;
+}
+}

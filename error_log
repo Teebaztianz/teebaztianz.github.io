@@ -1,0 +1,13 @@
+[21-Sep-2018 14:12:30 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 115
+[21-Sep-2018 14:13:19 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 115
+[21-Sep-2018 14:16:48 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 115
+[21-Sep-2018 14:25:27 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 115
+[21-Sep-2018 14:28:35 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 115
+[08-May-2019 11:44:24 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 131
+[08-May-2019 12:00:57 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 131
+[08-May-2019 13:09:38 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 131
+[08-May-2019 13:09:39 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 131
+[08-May-2019 13:20:14 UTC] PHP Warning:  Illegal offset type in isset or empty in /home/iqx176cm5pft/public_html/wp-content/plugins/ninja-forms/includes/Display/Render.php on line 131
+[09-May-2019 08:57:03 UTC] The WC_Cart::get_remove_url function is deprecated since version 3.3. Replace with wc_get_cart_remove_url.
+[09-May-2019 08:57:03 UTC] The WC_Cart::get_item_data function is deprecated since version 3.3. Replace with wc_get_formatted_cart_item_data.
+[09-May-2019 08:57:03 UTC] add_to_cart_fragments is deprecated since version 3.0.0! Use woocommerce_add_to_cart_fragments instead.

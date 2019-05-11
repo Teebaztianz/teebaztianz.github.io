@@ -1,0 +1,73 @@
+[20-Oct-2018 15:32:43 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:43 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:43 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:43 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:44 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:44 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:44 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[20-Oct-2018 15:32:44 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-Dec-2018 13:30:30 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-Dec-2018 13:30:30 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-Dec-2018 13:30:30 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-Dec-2018 13:30:30 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Dec-2018 03:48:52 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Dec-2018 03:48:52 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Dec-2018 03:48:52 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Dec-2018 03:48:52 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Jan-2019 03:04:51 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Jan-2019 03:04:51 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Jan-2019 03:04:51 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Jan-2019 03:04:51 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[28-Jan-2019 00:33:52 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[28-Jan-2019 00:33:52 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[28-Jan-2019 00:33:52 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[28-Jan-2019 00:33:52 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[29-Jan-2019 06:00:41 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[29-Jan-2019 06:00:41 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[29-Jan-2019 06:00:41 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[29-Jan-2019 06:00:41 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[27-Feb-2019 17:47:22 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[27-Feb-2019 17:47:22 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[27-Feb-2019 17:47:22 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[27-Feb-2019 17:47:22 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:00 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:00 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:00 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:00 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:49 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:49 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:49 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[13-Mar-2019 17:13:49 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Mar-2019 19:04:24 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Mar-2019 19:04:24 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Mar-2019 19:04:24 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[16-Mar-2019 19:04:24 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[09-Apr-2019 17:09:27 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[09-Apr-2019 17:09:27 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[09-Apr-2019 17:09:27 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[09-Apr-2019 17:09:27 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[10-Apr-2019 05:54:34 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[10-Apr-2019 05:54:34 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[10-Apr-2019 05:54:34 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[10-Apr-2019 05:54:34 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[21-Apr-2019 22:09:19 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[21-Apr-2019 22:09:19 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[21-Apr-2019 22:09:19 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[21-Apr-2019 22:09:19 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-May-2019 16:46:06 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-May-2019 16:46:07 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-May-2019 16:46:07 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[06-May-2019 16:46:07 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/iqx176cm5pft/public_html/wp-includes/load.php on line 404
+[08-May-2019 10:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::has_errors() in /home/iqx176cm5pft/public_html/wp-admin/includes/file.php:1733
+Stack trace:
+#0 /home/iqx176cm5pft/public_html/wp-admin/includes/class-wp-upgrader.php(192): WP_Filesystem(true, '/home/iqx176cm5...', false)
+#1 /home/iqx176cm5pft/public_html/wp-admin/includes/class-plugin-upgrader.php(238): WP_Upgrader->fs_connect(Array)
+#2 /home/iqx176cm5pft/public_html/wp-admin/includes/ajax-actions.php(4191): Plugin_Upgrader->bulk_upgrade(Array)
+#3 /home/iqx176cm5pft/public_html/wp-includes/class-wp-hook.php(286): wp_ajax_update_plugin('')
+#4 /home/iqx176cm5pft/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/iqx176cm5pft/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home/iqx176cm5pft/public_html/wp-admin/admin-ajax.php(100): do_action('wp_ajax_update-...')
+#7 {main}
+  thrown in /home/iqx176cm5pft/public_html/wp-admin/includes/file.php on line 1733
+[10-May-2019 10:49:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iqx176cm5pft/public_html/wp-includes/functions.php:4339) in /home/iqx176cm5pft/public_html/wp-includes/pluggable.php on line 1251
+[10-May-2019 10:49:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/iqx176cm5pft/public_html/wp-includes/functions.php:4339) in /home/iqx176cm5pft/public_html/wp-includes/pluggable.php on line 1254

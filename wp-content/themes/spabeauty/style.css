@@ -1,0 +1,52 @@
+/*
+Theme Name: Spabeauty
+Theme URI: https://themeansar.com/free-themes/spabeauty/
+Author: themeansar
+Author URI: https://themeansar.com
+Template: shopbiz-lite
+Description: spabeauty is a powerful bootstrap Wordpress theme for spa or individuals. spabeauty theme which can be used for web design firms or any other yoga, salons, beauty, health, parlor, online shops, woocommerce, health, digital, medical, clinic, dental, spa, beauty, massage, gym, fitness, trainer, coach, restaurant and any other kind of website purpose. It comes with all features these kind of shop page, blog page, Contact form seven working, custom logo, slides variation, color pallate.demo at https://themeansar.com/demo/wp/shopbiz/spa/
+Version: 1.0
+Tags: three-columns, left-sidebar, right-sidebar, custom-colors, custom-logo, featured-images
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: spabeauty
+*/
+
+/*---------------------------------------
+	ta-calltoaction
+-----------------------------------------*/
+.ta-calltoaction {
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+}
+.ta-calltoaction .overlay {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	padding: 38px 0 25px;
+}
+.ta-calltoaction-box-icon {
+	float: left;
+	display: inline-block;
+	margin-right: 25px;
+	width: 50px;
+}
+.ta-calltoaction-box-icon i {
+	height: 50px;
+	line-height: 70px;
+	text-align: center;
+	width: 50px;
+	font-size: 50px;
+}
+.ta-calltoaction-box-info h5 {
+	line-height: 15px;
+}
+.ta-calltoaction .btn {
+	margin-top: 10px;
+}
+.ta-calltoaction .btn-theme {
+	border-width: 1px;
+	border-style: solid;
+}

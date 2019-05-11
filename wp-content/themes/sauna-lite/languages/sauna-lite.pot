@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sauna Lite\n"
+"POT-Creation-Date: 2016-02-11 19:00+0530\n"
+"PO-Revision-Date: 2016-02-11 19:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: ThemesCaliber <support@themescaliber.com>\n"
+"Language: English\n"
+"MIME-Version: 1.1.1.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:12
+msgid '404 Not Found'
+msgstr ""
+
+#: 404.php:13
+msgid 'Looks like you have taken a wrong turn&hellip;'
+msgstr ""
+
+#: 404.php:14
+#: no-results.php:21
+msgid 'Dont worry it happens to the best of us.'
+msgstr ""
+
+#: 404.php:16
+#: no-results.php:23
+msgid 'Back to Home Page'
+msgstr ""
+
+#: archive.php:43
+#: archive.php:79
+#: archive.php:114
+#: archive.php:149
+#: archive.php:186
+#: archive.php:223
+#: index.php:45
+#: index.php:77
+#: index.php:108
+#: index.php:139
+#: index.php:172
+#: index.php:204
+#: search.php:38
+#: search.php:71
+#: search.php:103
+#: search.php:135
+#: search.php:169
+#: search.php:203
+msgid 'Previous page'
+msgstr ""
+
+#: archive.php:44
+#: archive.php:80
+#: archive.php:115
+#: archive.php:150
+#: archive.php:187
+#: archive.php:224
+#: index.php:46
+#: index.php:78
+#: index.php:109
+#: index.php:140
+#: index.php:173
+#: index.php:205
+#: search.php:39
+#: search.php:72
+#: search.php:104
+#: search.php:136
+#: search.php:170
+#: search.php:204
+msgid 'Next page'
+msgstr ""
+
+#: archive.php:45
+#: archive.php:81
+#: archive.php:116
+#: archive.php:151
+#: archive.php:188
+#: archive.php:225
+#: index.php:47
+#: index.php:79
+#: index.php:110
+#: index.php:141
+#: index.php:174
+#: index.php:206
+#: search.php:40
+#: search.php:73
+#: search.php:105
+#: search.php:137
+#: search.php:171
+#: search.php:205
+#: single.php:43
+#: single.php:95
+#: single.php:146
+#: single.php:197
+#: single.php:251
+#: single.php:305
+msgid 'Page'
+msgstr ""
+
+#: comments.php:25
+#: comments.php:33
+msgid 'comments title'
+msgstr ""
+
+#: comments.php:63
+msgid 'Comments are closed.'
+msgstr ""
+
+#: footer.php:30
+msgid 'Sauna WordPress Theme By'
+msgstr ""
+
+#: functions.php:32
+msgid 'Primary Menu'
+msgstr ""
+
+#: functions.php:66
+msgid 'Thank You!!!!!'
+msgstr ""
+
+#: functions.php:67
+msgid 'Much grateful to you for choosing our pets theme from themescaliber. we praise you for opting our services over others. we are obliged to invite you on our welcome page to render you with our outstanding services.'
+msgstr ""
+
+#: functions.php:68
+msgid 'Click Here...'
+msgstr ""
+
+#: functions.php:75
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:76
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:86
+#: functions.php:96
+msgid 'Appears on page sidebar'
+msgstr ""
+
+#: functions.php:86
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:95
+msgid "Third Column Sidebar"
+msgstr ""
+
+#: functions.php:105
+msgid 'Footer Navigation 1'
+msgstr ""
+
+#: functions.php:106
+msgid 'Footer Navigation 2'
+msgstr ""
+
+#: functions.php:107
+msgid 'Footer Navigation 3'
+msgstr ""
+
+#: functions.php:108
+msgid 'Footer Navigation 4'
+msgstr ""
+
+#: functions.php:106
+#: functions.php:107
+#: functions.php:108
+#: functions.php:109
+msgid "Appears on footer"
+msgstr ""
+
+#: header.php:24
+msgid "Menu"
+msgstr ""
+
+#: image.php:36
+#: image.php:72
+#: image.php:107
+#: image.php:142
+#: image.php:180
+#: image.php:218
+#: page.php:24
+#: single.php:39
+#: single.php:91
+#: single.php:142
+#: single.php:193
+#: single.php:247
+#: single.php:301
+#: page-template/page-with-left-sidebar.php:21
+#: page-template/page-with-right-sidebar.php:18
+msgid 'Pages:'
+msgstr ""
+
+#: image.php:41
+#: image.php:77
+#: image.php:112
+#: image.php:147
+#: image.php:185
+#: image.php:223
+msgid "Edit"
+msgstr ""
+
+#: no-results.php:11
+msgid 'Nothing Found'
+msgstr ""
+
+#: no-results.php:16
+msgid 'Ready to publish your first post? Get started here.'
+msgstr ""
+
+#: no-results.php:18
+msgid 'Sorry, but nothing matched your search terms. Please try again with some different keywords.'
+msgstr ""
+
+#: searchform.php:10
+msgid 'placeholder'
+msgstr ""
+
+#: searchform.php:12
+msgid 'submit button'
+msgstr ""
+
+#: searchform.php:12
+msgid 'Search'
+msgstr ""
+
+#: sidebar.php:12
+msgid 'Archives'
+msgstr ""
+
+#: sidebar.php:18
+msgid 'Meta'
+msgstr ""
+
+#: single.php:25 single.php:77 single.php:128 single.php:179 single.php:233 single.php:287
+msgid '0 Comments'
+msgstr ""
+
+#: single.php:53 single.php:105 single.php:156 single.php:207 single.php:261 single.php:315
+msgid 'Parent post link'
+msgstr ""
+
+#: single.php:61
+#: single.php:113
+#: single.php:164
+#: single.php:215
+#: single.php:269
+#: single.php:323
+msgid 'Previous'
+msgstr ""
+
+#: single.php:58
+#: single.php:110
+#: single.php:161
+#: single.php:212
+#: single.php:266
+#: single.php:320
+msgid 'Next'
+msgstr ""
+
+#: single.php:62
+#: single.php:114
+#: single.php:165
+#: single.php:216
+#: single.php:270
+#: single.php:324
+msgid 'Previous post:'
+msgstr ""
+
+#: single.php:59
+#: single.php:111
+#: single.php:162
+#: single.php:213
+#: single.php:267
+#: single.php:321
+msgid 'Next post:'
+msgstr ""
+
+#: page-template/custom-frontpage.php:61
+msgid 'Learn More'
+msgstr ""
+
+#: page-template/custom-frontpage.php:85
+msgid 'Our Services'
+msgstr ""
+
+#: template-parts/content-audio.php:41
+#: template-parts/content-gallery.php:29
+#: template-parts/content-image.php:22
+#: template-parts/content-video.php:41
+#: template-parts/content.php:22
+#: template-parts/grid-layout:23
+msgid 'READ More&hellip;'
+msgstr ""
+
+#: inc/customizer.php:20
+msgid 'Theme Settings'
+msgstr ""
+
+#: inc/customizer.php:21
+msgid 'Description of what this panel does.'
+msgstr ""
+
+#: inc/customizer.php:25
+msgid 'Theme Layout Settings'
+msgstr ""
+
+#: inc/customizer.php:40
+msgid 'Do you want this section'
+msgstr ""
+
+#: inc/customizer.php:43
+msgid 'Left Sidebar'
+msgstr ""
+
+#: inc/customizer.php:44
+msgid 'Right Sidebar'
+msgstr ""
+
+#: inc/customizer.php:45
+msgid 'One Column'
+msgstr ""
+
+#: inc/customizer.php:46
+msgid 'Three Columns'
+msgstr ""
+
+#: inc/customizer.php:47
+msgid 'Four Columns'
+msgstr ""
+
+#: inc/customizer.php:48
+msgid 'Grid Layout'
+msgstr ""
+
+#: inc/customizer.php:55
+msgid 'Slider Settings.'
+msgstr ""
+
+#: inc/customizer.php:69
+msgid 'Select Slide Image Page'
+msgstr ""
+
+#: inc/customizer.php:78
+msgid 'Our Services'
+msgstr ""
+
+#: inc/customizer.php:79
+msgid 'This section will appear below the slider.'
+msgstr ""
+
+#: inc/customizer.php:89
+msgid 'Section Title'
+msgstr ""
+
+#: inc/customizer.php:102
+msgid 'Select Service Page'
+msgstr ""
+
+#: inc/customizer.php:110
+msgid 'Footer Text'
+msgstr ""
+
+#: inc/customizer.php:111
+msgid 'This section will appear in the footer'
+msgstr ""
+
+#: inc/customizer.php:121
+msgid 'Text'
+msgstr ""
+
+#: inc/customizer.php:205
+msgid 'Sauna Pro'
+msgstr ""
+
+#: inc/customizer.php:206
+msgid 'Go Pro'
+msgstr ""
+

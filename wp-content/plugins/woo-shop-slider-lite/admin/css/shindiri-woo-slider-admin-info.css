@@ -1,0 +1,40 @@
+/**
+ * All admin-specific css for plugin info page
+ */
+
+.sh-ws-plugin-info-page {
+    margin-bottom: 100px;
+}
+
+.sh-ws-plugin-info-page h1{
+    font-size: 42px;
+}
+
+.sh-ws-plugin-info-page h1 span{
+    display: block;
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+.sh-ws-plugin-info-content p{
+    width: 50%;
+    font-size: 14px;
+}
+
+.sh-ws-plugin-info-content ul{
+    margin-top: 24px;
+}
+
+.sh-ws-plugin-info-content ul li{
+    margin: 16px 0;
+}
+
+.sh-ws-plugin-info-content a{
+    font-size: 14px;
+    text-decoration: none;  
+}
+
+.sh-ws-plugin-info-content a:active, .sh-ws-plugin-info-content a:focus{
+    box-shadow: none;
+    outline: 0;
+}

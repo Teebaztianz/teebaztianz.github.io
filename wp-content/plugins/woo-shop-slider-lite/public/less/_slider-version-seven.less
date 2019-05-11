@@ -1,0 +1,782 @@
+/**
+* Slider version seven
+*/
+
+div.shindiri-woo-slider-shortcode-version-seven {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    div.shindiri-woo-slider-shortcode-wrapper {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        
+        div.shindiri-woo-slider-wrapper {
+            position: relative;
+            width: 100%;
+    
+            div.sh_ws-swiper-container {
+                width: 100%;
+                height: 800px;
+                
+                @media(max-width: 991px) {
+                    height: 600px !important;
+                }
+                
+                @media(max-width: 991px) {
+                    height: 500px !important;
+                }
+                
+                div.shindiri-woo-slider-button-prev {
+                    left: 0;
+                    top: 0;
+                    display: block;
+                    position: absolute;
+                    cursor: pointer;
+                    height: 100%;
+                    width: 20%;
+                    z-index: 10;
+                    
+                    div.sh-ws-arrow-overlay {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        .sh-ws-transition-opacity-mixin(0.4s, @easeInOutCubic);
+                        visibility: visible;
+                        opacity: 0.4;
+                    }
+
+                    div.sh-ws-arrow-wrapper {
+                        position: relative;
+                        height: 100%;
+                        width: auto;
+                        
+                        div.sh-ws-arrow {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            width: 82px;
+                            display: block;
+                            .sh-ws-center-this-mixin(-50%, -50%);
+                            
+                            div.sh-ws-arrow-relative {
+                                position: relative;
+                                height: 42px;
+                                -webkit-transition: -webkit-transform 0.3s @easeInOutCubic;
+                                -moz-transition: -moz-transform 0.3s @easeInOutCubic;
+                                -o-transition: -o-transform 0.3s @easeInOutCubic;
+                                transition: transform 0.3s @easeInOutCubic;
+                            
+                                div.sh-ws-line {
+                                    position: absolute;
+                                    top: 20px !important;
+                                    left: -3px !important;
+                                    height: 2px !important;
+                                    width: 80px;
+                                    background: @white;
+                                }
+
+                                div.sh-ws-div-arrow {
+                                    position: absolute;
+                                    border-left: 2px solid @white;
+                                    border-top: 2px solid @white;
+                                    .sh-ws-rotate-mixin(-45deg);
+                                    display: block;
+                                    height: 30px !important;
+                                    width: 30px !important;
+                                    top: 6px !important;
+                                    left: 0 !important;
+                                } 
+                            }
+                        }
+                    }
+                    
+                    &:hover {
+                        
+                        div.sh-ws-arrow-overlay {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                        
+                        div.sh-ws-arrow-relative {
+                            .sh-ws-center-this-mixin(-10px, 0);
+                        }
+                    }
+
+                    &.swiper-button-disabled {
+                        opacity: 0.3;
+                        cursor: default;
+                    }
+                }
+
+                div.shindiri-woo-slider-button-next {
+                    right: 0;
+                    top: 0;
+                    display: block;
+                    position: absolute;
+                    cursor: pointer;
+                    height: 100%;
+                    width: 20%;
+                    z-index: 10;
+                    
+                    div.sh-ws-arrow-overlay {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        .sh-ws-transition-opacity-mixin(0.4s, @easeInOutCubic);
+                        visibility: visible;
+                        opacity: 0.4;
+                    }
+                    
+                    div.sh-ws-arrow-wrapper {
+                        position: relative;
+                        height: 100%;
+                        width: auto;
+                        
+                        div.sh-ws-arrow {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            width: 100%;
+                            width: 82px;
+                            display: block;
+                            .sh-ws-center-this-mixin(-50%, -50%);
+                            
+                            div.sh-ws-arrow-relative {
+                                position: relative;
+                                height: 42px;
+                                -webkit-transition: -webkit-transform 0.3s @easeInOutCubic;
+                                -moz-transition: -moz-transform 0.3s @easeInOutCubic;
+                                -o-transition: -o-transform 0.3s @easeInOutCubic;
+                                transition: transform 0.3s @easeInOutCubic;
+                            
+                                div.sh-ws-line {
+                                    position: absolute;
+                                    top: 20px !important;
+                                    right: -3px !important;
+                                    height: 2px !important;
+                                    width: 80px;
+                                    background: @white;
+                                }
+
+                                div.sh-ws-div-arrow {
+                                    position: absolute;
+                                    border-right: 2px solid @white;
+                                    border-top: 2px solid @white;
+                                    .sh-ws-rotate-mixin(45deg);
+                                    display: block;
+                                    height: 30px !important;
+                                    width: 30px !important;
+                                    top: 6px !important;
+                                    right: 0 !important;
+                                } 
+                            }
+                        }
+                    }
+                    
+                    &:hover {
+                        
+                        div.sh-ws-arrow-overlay {
+                            opacity: 0;
+                            visibility: hidden;
+                            
+                        }
+                        
+                        div.sh-ws-arrow-relative {
+                            .sh-ws-center-this-mixin(10px, 0);
+                        }
+                    }
+                    
+                    &.swiper-button-disabled {
+                        opacity: 0.3;
+                        cursor: default;
+                    }
+                }
+                
+                div.sh_ws-swiper-wrapper {
+                    height: inherit;
+                    width: 100%;
+                    
+                    /* Added after init to make active slide larger */
+                    &.sh_ws-enlarge-actve-slide {
+
+                        div.sh_ws-swiper-slide {
+
+                            &.swiper-slide-active {
+                                z-index: 1;
+                                
+                                div.shindiri-woo-slider-slide-wrapper {
+                                    width: 180%;
+                                    margin-left: -40%;
+                                    z-index: 1;
+                                    
+                                    div.shindiri-woo-slide-details {
+                                        .sh-ws-transition-opacity-mixin(0.3s, @easeInOutCubic, 0.6s) !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    div.sh_ws-swiper-slide {
+                        height: inherit;
+                        width: auto;
+                        position: relative !important;
+                        z-index: 0;
+                        
+                        div.shindiri-woo-slider-slide-wrapper {
+                            position:absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            overflow: hidden;
+                            z-index: 0;
+                            .sh-ws-transition-mixin(all, 0.6s, @easeInOutCubic);
+                            
+                            div.sh-ws-slide-overlay {
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                height: 100%;
+                                width: 100%;
+                                .sh-ws-transition-mixin(opacity, 0.55s, @easeInOutCubic);
+                                opacity: 0.2;
+                            }
+
+                            div.sh-ws-swiper-lazy-preloader {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                height: 100%;
+                                width: 100%;
+                                opacity: 0.7;
+                                -ms-transform: none;
+                                -webkit-transform: none;
+                                -moz-transform: none;
+                                transform: none;
+                                -ms-animation: none;
+                                -webkit-animation: none;
+                                -moz-animation: none;
+                                animation: none;
+                                margin: 0 !important;
+                                background: @white;
+                                opacity: 1;
+                                z-index: 1;
+                                visibility: visible;
+                                .sh-ws-transition-opacity-mixin(0.4s, @easeInOutCubic);
+
+                                img {
+                                    display: none !important;
+                                }
+                                
+                                div.sh-ws-woo-slider-loader {
+                                    .sh-ws-center-this-mixin(-50%, -50%);
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 50%;
+                                }
+                            }
+                            
+                            /* Slider details */
+                            div.shindiri-woo-slide-details {
+                                position: absolute;
+                                bottom: 10%;
+                                left: 50%;
+                                max-width: 500px;
+                                .sh-ws-box-sizing-mixin;
+                                overflow: hidden;
+                                opacity: 0;
+                                visibility: hidden;
+                                text-align: center;
+                                height: auto;
+                                .sh-ws-center-this-mixin(-50%, 0);
+                                .sh-ws-transition-opacity-mixin(0.3s, @easeInOutCubic);
+                                
+                                div.sh-ws-slide-details-inner {
+                                    position: relative;
+                                    padding: 30px;
+                                
+                                    div.shindiri-woo-slide-categories {
+                                        position: relative;
+                                        display: block;
+                                        margin: 0 0 10px 0;
+
+                                        span {
+                                            font-size: 15px;
+                                            line-height: 1;
+                                            padding: 0 !important;
+
+                                            a {
+                                                font-size: 15px;
+                                                line-height: 1;
+                                                padding: 0 !important;
+                                            }
+                                        }
+                                        
+                                        + a.shindiri-woo-slide-title {
+                                            margin-top: 15px;
+                                        }
+                                    }
+
+                                    a.shindiri-woo-slide-title {
+                                        position: relative;
+                                        display: block;
+                                        margin-bottom: 20px;
+                                        font-size: 30px;
+                                        line-height: 1;
+                                    }
+
+                                    div.shindiri-woo-slide-price {
+                                        position: relative;
+                                        margin-bottom: 20px;
+
+                                        span, del, ins {
+                                            font-size: 30px;
+                                            line-height: 1;
+                                            text-align: left;
+                                        }
+                                        
+                                        del {
+                                            
+                                            span {
+                                                font-size: 27px;
+                                            }
+                                        }
+                                        
+                                        span.sh-ws-price-from {
+                                            font-size: 27px;
+                                            margin-right: 5px;
+                                        }
+                                    }
+
+                                    button.sh-ws-quick-look,
+                                    button.shindiri-woo-slide-button {
+                                        position: relative;
+                                        display: inline-block;
+                                        margin: 0 10px 10px 10px;
+                                        font-size: 17px;
+                                        min-width: 160px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    button.sh-ws-quick-look {
+                                        
+                                        @media(max-width: @quick-view-disable) {
+                                            display: none !important;
+                                        }
+                                    }
+                                    
+                                    /* Showing categories */
+                                    &.categories {
+
+                                        div.shindiri-woo-slide-categories {
+
+                                            span {
+                                                font-size: 18px;
+
+                                                a {
+                                                    font-size: 18px;
+                                                }
+                                            }
+                                        }
+                                        
+                                        a.shindiri-woo-slide-title {
+                                            margin-bottom: 23px;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            &.swiper-lazy-loaded {
+                            
+                                div.sh-ws-swiper-lazy-preloader {
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    .sh-ws-transition-opacity-mixin(0.4s, @easeInOutCubic);
+                                }
+                            }
+                            
+                            /* Product sale ribbon */
+                            div.shindiri-woo-slide-sale {
+                                .sh-ws-onsale-mixin;
+                                position: absolute;
+                                top: 0;
+                                right: auto;
+                                bottom: auto;
+                                left: 0;
+                            }
+                        }
+                    }
+                }  
+                
+                /* Prevent moving arrows on small width sliders or mobile devices */
+                &.sh-ws-small {
+                    
+                    div.shindiri-woo-slider-button-next {
+
+                        div.sh-ws-arrow-wrapper {
+
+                            div.sh-ws-arrow {
+                                left: auto !important;
+                                right: 30px !important;
+                                width: 52px;
+                                .sh-ws-transform-none-mixin;
+                                
+                                div.sh-ws-arrow-relative {
+                                    .sh-ws-transform-none-mixin;
+                                    
+                                    div.sh-ws-line {
+                                        width: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    div.shindiri-woo-slider-button-prev {
+                        width: 20%;
+
+                        div.sh-ws-arrow-wrapper {
+
+                            div.sh-ws-arrow {
+                                left: 30px !important;
+                                .sh-ws-transform-none-mixin;
+                                width: 52px;
+                                
+                                div.sh-ws-arrow-relative {
+                                    .sh-ws-transform-none-mixin;
+
+                                    div.sh-ws-line {
+                                        width: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    div.sh_ws-swiper-wrapper {
+                        
+                         div.sh_ws-swiper-slide {
+                             
+                             div.shindiri-woo-slide-details {
+                                width: 250px !important;
+                                
+                                div.sh-ws-slide-details-inner {
+
+                                    a.shindiri-woo-slide-title {
+                                        font-size: 22px !important;
+                                    }
+
+                                    div.shindiri-woo-slide-price {
+
+                                        span, del, ins {
+                                            font-size: 22px !important;
+                                        }
+                                        
+                                        del {
+                                            
+                                            span {
+                                                font-size: 20px !important;
+                                            }
+                                        }
+                                        
+                                        span.sh-ws-price-from {
+                                            font-size: 20px !important;
+                                        }
+                                    }
+                                }
+                            }
+                         }
+                    }
+                    
+                }
+            }
+        }
+        
+        &.sh-ws-lazy-active {
+            
+            div.swiper-slide-active {
+                            
+                div.shindiri-woo-slider-slide-wrapper {
+                        
+                    &.swiper-lazy-loaded {
+
+                        div.shindiri-woo-slide-details {
+                            opacity: 1  !important;
+                            visibility: visible !important;
+                        }
+                    }
+                }
+            }
+        }
+        
+        &.sh-ws-lazy-inactive {
+            
+            div.sh_ws-swiper-slide { 
+
+                div.sh-ws-swiper-lazy-preloader {
+                    display: none !important;
+                }
+                
+                &.swiper-slide-active {
+
+                    div.shindiri-woo-slider-slide-wrapper {
+
+                        div.shindiri-woo-slide-details {
+                            opacity: 1  !important;
+                            visibility: visible !important;
+                        }
+                    }
+                }
+            }
+        }
+        
+        /* Dark theme without typography */
+        &.sh-ws-dark-theme {
+            
+            div.shindiri-woo-slider-button-next {
+
+                div.sh-ws-arrow-relative {
+
+                    div.sh-ws-line {
+                        background: @text-color1 !important;
+                    }
+
+                    div.sh-ws-div-arrow {
+                        border-right: 2px solid @text-color1 !important;
+                        border-top: 2px solid @text-color1 !important;
+                    } 
+                }
+            }
+            
+            div.shindiri-woo-slider-button-prev {
+
+                div.sh-ws-arrow-relative {
+
+                    div.sh-ws-line {
+                        background: @text-color1 !important;
+                    }
+
+                    div.sh-ws-div-arrow {
+                        border-left: 2px solid @text-color1 !important;
+                        border-top: 2px solid @text-color1 !important;
+                    } 
+                }
+            }
+        }
+        
+        /* Typography enabled */
+        &.sh-ws-typography {
+            
+            div.shindiri-woo-slide-details {
+                
+                div.sh-ws-slide-details-inner {
+                    
+                    div.shindiri-woo-slide-categories {
+
+                        span {
+                            font-family: @font-family !important;
+                            .sh-ws-text-compatibility-styles-mixin;
+                            color: @white !important;
+                            font-style: italic !important;
+                            font-weight: @font-bold !important;
+                            text-transform: none !important;
+
+                            a {
+                                font-family: @font-family !important;
+                                .sh-ws-text-compatibility-styles-mixin;
+                                color: @white !important;
+                                font-style: italic !important;
+                                font-weight: @font-bold !important;
+                                text-transform: none !important;
+                            }
+                        }
+                    }
+
+                    a.shindiri-woo-slide-title {
+                        font-family: @font-family !important;
+                        .sh-ws-text-compatibility-styles-mixin;
+                        color: @white !important;
+                        font-weight: @font-bold !important;
+                    }
+
+                    div.shindiri-woo-slide-price {
+
+                        span, del, ins {
+                            font-family: @font-family !important;
+                            color: @white !important;
+                            font-weight: @font-bold !important;
+                            .sh-ws-text-compatibility-styles-mixin;
+                        }
+                        
+                        del {
+                            text-decoration: line-through !important;
+
+                            span {
+                                line-height: 1 !important;
+                            }
+                        }
+                    }
+
+                    button.button {
+                        .sh-ws-square-white-button-mixin;
+                        padding: 17px 21px !important;
+                    }
+                    
+                    button.sh-ws-quick-look {
+                        text-transform: uppercase;
+                    }
+                    
+                    /* Filled button */
+                    &.sh-ws-button-filled {
+
+                        button {
+                            background: @almost-white !important;
+                            color: @text-color1 !important;
+
+                            &:hover {
+                                background: @almost-white-hover !important;
+                                border-color: @almost-white-hover !important;
+                            }
+                        }
+                    }
+
+                    /* Rounded button */
+                    &.sh-ws-button-rounded {
+
+                        button {
+                            background: @almost-white !important;
+                            color: @text-color1 !important;
+                            border-radius: 4px !important;
+
+                            &:hover {
+                                background: @almost-white-hover !important;
+                                border-color: @almost-white-hover !important;
+                            }
+                        }
+                    }
+                    
+                    /* Showing categories */
+                    &.categories {
+                        
+                        div.shindiri-woo-slide-categories {
+
+                            span {
+                                font-weight: @font-regular !important;
+
+                                a {
+                                     font-weight: @font-regular !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            div.shindiri-woo-slide-sale {
+                .sh-ws-onsale-square-typography-mixin;
+                top: -15px !important;
+                right: auto !important;
+                bottom: auto !important;
+                left: -46px !important;
+                z-index: 3 !important;
+
+                span.onsale {
+                    color: @white !important;
+                    background: @orange-dirty !important;
+                    width: 130px !important;
+                    height: 70px !important;
+                    line-height: 90px !important;
+                    .sh-ws-rotate-mixin(-45deg);
+                }
+            }
+            
+            /* Enabled typography and dark theme */
+            &.sh-ws-dark-theme {
+                
+                div.shindiri-woo-slide-details {
+                
+                    div.sh-ws-slide-details-inner {
+
+                        div.shindiri-woo-slide-categories {
+
+                            span {
+                                color: @text-color1 !important;
+
+                                a {
+                                    color: @text-color1 !important;
+                                }
+                            }
+                        }
+
+                        a.shindiri-woo-slide-title {
+                            color: @text-color1 !important;
+                        }
+
+                        div.shindiri-woo-slide-price {
+
+                            span, del, ins {
+                                color: @text-color1 !important;
+                            }
+                        }
+                        
+                        button.button {
+                            color: @text-color1 !important;
+                            border: 1px solid @text-color1 !important;
+                            
+                            &:hover {
+                                background: @text-color1 !important;
+                                color: @almost-white !important;
+                            }
+                        }
+                        
+                        /* Filled button */
+                        &.sh-ws-button-filled {
+
+                            button {
+                                background: @text-color1 !important;
+                                color: @white !important;
+
+                                &:hover {
+                                    background: @text-color1-hover !important;
+                                    border-color: @text-color1-hover !important;
+                                }
+                            }
+                        }
+
+                        /* Rounded button */
+                        &.sh-ws-button-rounded {
+
+                            button {
+                                background: @text-color1 !important;
+                                color: @white !important;
+                                border-radius: 4px !important;
+                                
+                                &:hover {
+                                    background: @text-color1-hover !important;
+                                    border-color: @text-color1-hover !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                div.shindiri-woo-slide-sale {
+
+                    span.onsale {
+                        color: @text-color1 !important;
+                    }
+                }
+            }
+        }
+    }
+}

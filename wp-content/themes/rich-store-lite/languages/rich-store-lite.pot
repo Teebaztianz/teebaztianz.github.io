@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rich Store Lite\n"
+"POT-Creation-Date: 2019-03-29 15:40+0530\n"
+"PO-Revision-Date: 2019-03-29 15:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: Grace Themes <support@gracethemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Don't worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18 content-search.php:28 content-single.php:29
+#: content.php:36 image.php:56 template-full-width.php:24
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 content-search.php:39 content-single.php:40
+#: content.php:20 image.php:30 image.php:62
+msgid "Edit"
+msgstr ""
+
+#: content.php:29
+msgid "Learn More"
+msgstr ""
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: customize-pro/example-1/class-customize.php:76
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: customize-pro/example-1/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: footer.php:14
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:17
+#, php-format
+msgid "Proudly Powered by %s."
+msgstr ""
+
+#: footer.php:19
+msgid ""
+"https://gracethemes.com/themes/free-ecommerce-marketplace-wordpress-theme/"
+msgstr ""
+
+#: footer.php:20
+#, php-format
+msgid "Theme by %s"
+msgstr ""
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:51
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: header.php:109
+msgid "View your shopping cart"
+msgstr ""
+
+#: header.php:120
+msgid "Menu"
+msgstr ""
+
+#: image.php:20
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:36
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/about-themes.php:11 inc/about-themes.php:20
+msgid "About Theme Info"
+msgstr ""
+
+#: inc/about-themes.php:22
+msgid ""
+"Rich Store Lite is a professional, modern, clean and responsive Marketplace "
+"WordPress Theme designed for creating ecommerce website that will definitely "
+"draw more customers to your business. This theme is specially designed for "
+"product sellers, book store, multimedia, digital agency and other businesses "
+"that need a WooCommerce compatible theme for their online business website. "
+"This theme can also be used for different purposes such as corporate, "
+"business, portfolio, photography, blog, personal website and many more. With "
+"its beautiful crafted homepage layout, you can create fully functional "
+"website for your online store. Rich Store is very clean coded theme which is "
+"fast to install and easy to customize. This ecommerce theme is very flexible "
+"and comes with great features that you can use for designing your unique "
+"eCommerce website."
+msgstr ""
+
+#: inc/about-themes.php:23
+msgid "Theme Features"
+msgstr ""
+
+#: inc/about-themes.php:27
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about-themes.php:28
+msgid ""
+"The built-in customizer panel quickly change aspects of the design and "
+"display changes live before saving them."
+msgstr ""
+
+#: inc/about-themes.php:32
+msgid "Responsive Ready"
+msgstr ""
+
+#: inc/about-themes.php:33
+msgid ""
+"The themes layout will automatically adjust and fit on any screen resolution "
+"and looks great on any device. Fully optimized for iPhone and iPad."
+msgstr ""
+
+#: inc/about-themes.php:37
+msgid "Cross Browser Compatible"
+msgstr ""
+
+#: inc/about-themes.php:38
+msgid ""
+"Our themes are tested in all mordern web browsers and compatible with the "
+"latest version including Chrome,Firefox, Safari, Opera, IE11 and above."
+msgstr ""
+
+#: inc/about-themes.php:42
+msgid "E-commerce"
+msgstr ""
+
+#: inc/about-themes.php:43
+msgid ""
+"Fully compatible with WooCommerce plugin. Just install the plugin and turn "
+"your site into a full featured online shop and start selling products."
+msgstr ""
+
+#: inc/about-themes.php:50
+msgid "Live Demo"
+msgstr ""
+
+#: inc/about-themes.php:51
+msgid "Purchase Pro"
+msgstr ""
+
+#: inc/about-themes.php:52
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Theme Options Panel"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Check to Box Layout"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "If you want to box layout please check the Box Layout Option."
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Color Scheme Options"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "More color options in available PRO Version"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Header Contact info"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Add email address here."
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Add phone number here"
+msgstr ""
+
+#: inc/customizer.php:112 inc/customizer.php:178
+msgid "Check To show This Section"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Header social icons"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Add social icons link here to display icons in header"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer.php:142
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Add google plus link here"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Add linkedin link here"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "Slider Options"
+msgstr ""
+
+#: inc/customizer.php:186
+msgid "Default image size for slider is 1400 x 670 pixel."
+msgstr ""
+
+#: inc/customizer.php:198
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Add slider Read more button name here"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Check To Show This Section"
+msgstr ""
+
+#: no-results.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Category"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "hotCart";
+    src: url(fonts/hotcart.ttf),
+    url(fonts/hotcart.woff) format('woff'),
+    url(fonts/hotcart.svg) format('svg'),
+    url(fonts/hotcart.eot) format('embedded-opentype');
+}

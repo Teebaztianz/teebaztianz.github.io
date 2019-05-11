@@ -1,0 +1,12 @@
+2019-05-08T11:31:12+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::has_errors() in /home/iqx176cm5pft/public_html/wp-admin/includes/file.php:1733
+Stack trace:
+#0 /home/iqx176cm5pft/public_html/wp-admin/includes/class-wp-upgrader.php(192): WP_Filesystem(true, '/home/iqx176cm5...', false)
+#1 /home/iqx176cm5pft/public_html/wp-admin/includes/class-plugin-upgrader.php(238): WP_Upgrader->fs_connect(Array)
+#2 /home/iqx176cm5pft/public_html/wp-admin/includes/ajax-actions.php(4191): Plugin_Upgrader->bulk_upgrade(Array)
+#3 /home/iqx176cm5pft/public_html/wp-includes/class-wp-hook.php(286): wp_ajax_update_plugin('')
+#4 /home/iqx176cm5pft/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/iqx176cm5pft/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home/iqx176cm5pft/public_html/wp-admin/admin-ajax.php(100): do_action('wp_ajax_update-...')
+#7 {main}
+  thrown
+

@@ -1,0 +1,239 @@
+/**
+* Mixin
+*/
+.sh-ws-box-shadow-none-mixin {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.sh-ws-text-compatibility-styles-mixin {
+    text-decoration: none !important;
+    font-style: normal !important;
+    border-bottom: none;
+    background: none;
+    word-break: break-word;
+    word-wrap: break-word;
+    .sh-ws-box-shadow-none-mixin;
+}
+
+/* Reset all styles from other themes */
+.sh-ws-onsale-mixin {
+
+    span.onsale {
+        position: relative;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        display: block;
+    }
+}
+
+.sh-ws-onsale-square-typography-mixin {
+    
+    span.onsale {
+        font-family: @font-family !important;
+        color: @text-color !important;
+        font-weight: @font-regular !important;
+        background: transparent !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        font-size: 14px !important;
+        line-height: 50px !important;
+        width: 50px !important;
+        height: 50px !important;
+        font-weight: @font-bold !important;
+        text-align: center !important;
+        min-height: none !important;
+        min-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        .sh-ws-text-compatibility-styles-mixin;
+        text-transform: uppercase !important;
+    }
+}
+
+.sh-ws-onsale-typography-mixin {
+    font-family: @font-family !important;
+    color: @text-color !important;
+    font-weight: @font-regular !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+    line-height: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-weight: @font-bold !important;
+    text-align: center !important;
+    min-height: none !important;
+    min-width: none !important;
+    .sh-ws-text-compatibility-styles-mixin;
+    text-transform: uppercase !important;
+}
+
+
+.sh-ws-box-sizing-mixin {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sh-ws-center-this-mixin(@x, @y) {
+    -ms-transform: translate(@x, @y);
+    -webkit-transform: translate(@x, @y);
+    -moz-transform: translate(@x, @y);
+    -o-transform: translate(@x, @y);
+    transform: translate(@x, @y);
+}
+
+.sh-ws-rotate-mixin(@deg) {
+    -ms-transform: rotate(@deg);
+    -webkit-transform: rotate(@deg);
+    transform: rotate(@deg);
+    -o-transform: rotate(@deg);
+    -moz-transform: rotate(@deg);
+}
+
+.sh-ws-scale-mixin(@x, @y) {
+    -ms-transform: scale(@x, @y); /* IE 9 */
+    -webkit-transform: scale(@x, @y); /* Safari */
+    transform: scale(@x, @y); /* Standard syntax */
+}
+
+.sh-ws-transform-none-mixin {
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.sh-ws-animation-none-mixin {
+    -ms-animation: none;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+}
+
+.sh-ws-transition-mixin(@property: all, @duration: 0.2s, @timing: linear, @delay: 0s) {
+    -webkit-transition: @property @duration @timing @delay;
+    -moz-transition: @property @duration @timing @delay;
+    transition: @property @duration @timing @delay;
+}
+
+.sh-ws-transition-none-mixin {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.sh-ws-transition-opacity-mixin(@duration: 0.2s, @timing: linear, @delay: 0s) {
+    -webkit-transition: opacity @duration @timing @delay, visibility @duration @timing @delay;
+    -moz-transition: opacity @duration @timing @delay, visibility @duration @timing @delay;
+    transition: opacity @duration @timing @delay, visibility @duration @timing @delay;
+}
+
+.sh-ws-square-white-button-mixin {
+    font-family: @font-family;
+    font-size: 15px !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    color: @white !important;
+    border: 1px solid @almost-white !important;
+    padding: 15px 25px !important;
+    font-weight: @font-bold !important;
+    text-decoration: none !important;
+    .sh-ws-transition-mixin;
+    background: transparent !important;
+    .sh-ws-box-shadow-none-mixin;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    
+    &:hover {
+        background: @almost-white !important;
+        color: @text-color !important;
+    }
+}
+
+.sh-ws-version-8-button-mixin {
+    .sh-ws-square-white-button-mixin;
+    border-color: @brown !important;
+    background: @brown !important;
+    padding: 15px 10px !important;
+    box-sizing: border-box !important;
+    min-width: 150px !important;
+    width: auto !important;
+
+    &:hover {
+        background: @brown-opacity !important;
+        border-color: @brown-opacity !important;
+        color: @white !important;
+    }
+}
+
+/* Hotcart buttons with icons */
+.sh-ws-hotcart-buttons-mixin {
+    position: relative;
+    font-family: hotCart !important;
+    font-size: 14px !important;
+    font-weight: 100 !important;
+    line-height: 34px !important;
+    height: 34px !important;
+    width: 34px !important;
+    color: @dark-light !important;
+    background: transparent;
+    z-index: 2;
+    padding: 0 !important;
+    text-align: center !important;
+    outline: 0 !important;
+    .sh-ws-transition-mixin(all, 0.25s, @easeInOutCubic);
+    /* Compatibility fixes */
+    text-decoration: none !important;
+    font-style: normal !important;
+    border-bottom: none;
+    word-break: break-word;
+    word-wrap: break-word;
+    .sh-ws-box-shadow-none-mixin;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    text-shadow: none !important;
+    display: block !important;
+}
+
+.sh-ws-hotcart-buttons-hover-mixin {
+    color: @white  !important;
+    background: @dark-light;
+}
+
+/* Buttons that display when hover over icon buttons */
+.sh-ws-hotcart-self-buttons-basic-mixin {
+    display: block !important;
+    white-space: nowrap !important;
+    height: 34px !important;
+    width: auto !important;
+    font-size: 15px !important;
+    line-height: 34px !important;
+    text-align: center !important;
+    padding: 0 10px !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    outline: 0 !important;
+    margin: 0 !important;
+}
+
+/* Style when used typography */
+.sh-ws-hotcart-self-buttons-style-mixin {
+    font-family: @font-family !important;
+    border: none !important;
+    font-weight: @font-regular !important;
+    background: transparent !important;
+    .sh-ws-box-shadow-none-mixin !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    color: @white !important;
+    background: @dark-light !important;
+}
